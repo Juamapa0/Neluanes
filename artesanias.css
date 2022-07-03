@@ -3,7 +3,7 @@
     padding: 0;
     margin:0;
     font-family: 'Gulzar', serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 :root {
@@ -17,10 +17,32 @@ font-family: 'Roboto', sans-serif;
 header {
     height: 30%;
     display : flex;
+    margin-top: 42px;
+    margin-bottom: 42px;    
 }
-main {
- 
+ .title {
+    display:flex;    
+    justify-content: center;
+    margin-left: 500px;
+    justify-items: center;
+    margin-right: 0;
+}
+.navegadores {
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+nav {
+    display:flex;
+    justify-items: center;
+    margin-left:42px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+
+}
+main { 
     display:grid;
+    margin:42px;
    
 }
 .cards-container{
@@ -81,6 +103,13 @@ main {
 }
 footer {
     height:10%;
+    display:grid;    
+}
+ul {
+    margin:42, 42, 0, 0;
+    display:grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    justify-items: center;
 }
 
 
