@@ -5,17 +5,16 @@
     font-family: 'Gulzar', serif;
   
 }
- body {
+
+:root {
+    --white:white;    
+    --Black:black;
+    --ligth-grey:rgb(254, 249, 249);
+}
+body {
     margin-left: 240px;
     margin-right: 240px;
-}
-}
-:root {
-    --white:#FFFFFF;
-    --Very light pink:#C7C7C7;
-    --Tex input field:#F7F7F7;
-    --Hospital green:#ACD9B2;
-    --Black: #000000;
+    background-color: var(--ligth-grey);
 }
 
 a {
