@@ -54,6 +54,7 @@ header {
     justify-content: center;
     text-align: center;
     width: 100%;
+
     font-size: 16px;  
       
 }
@@ -80,6 +81,18 @@ header nav .nav-center a {
     display:flex;
     text-align: end;
     margin-left: 0;
+    width: 220px;
+    height: 32px;
+    margin:0;
+}
+input {
+   margin-right: 4px;
+}
+button {
+    border-radius: 50px ;
+    background-color: black;
+    color:white;
+    width: 30%;
 }
 main { 
     display:grid;
@@ -97,7 +110,7 @@ main {
 .product-card img{
     width: 264px;
     height: 264px;
-    border-radius:20px ;
+    border-radius:10px ;
     object-fit: cover;
 }
 
@@ -111,7 +124,7 @@ main {
 .product-info div p:nth-child(1) {
     font-weight: 300;
     font-size:  var(--md);
-    margin-top: 16px;
+    margin-top: 12px;
     margin-bottom: 4;
 }
 .product-info div p:nth-child(2) {
@@ -153,6 +166,7 @@ ul {
     display:grid;
     grid-template-columns: repeat(auto-fill,300px);
     justify-items: center;
+    text-decoration: none;
 }
 
 
