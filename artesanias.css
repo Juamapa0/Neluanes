@@ -8,22 +8,23 @@
 
 :root {
     --white:white;    
-    --Black:black;
+    --Black:#000000;
     --ligth-grey:rgb(254, 249, 249);
 }
 body {
     margin-left: 240px;
     margin-right: 240px;
-    background-color: var(--ligth-grey);
+    background-color:#fff ;
 }
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 header {
     width: 100%;
-    height: 200px;
+    height: 30%;
     display : flex;  
     margin-top: 16px;
     margin-bottom: 16px;
@@ -54,51 +55,64 @@ header {
     justify-content: center;
     text-align: center;
     width: 100%;
-
-    font-size: 16px;  
-      
+    font-size: 16px; 
+    margin:0;
+    padding:0;  
+        
 }
 
  header nav {
     display:flex;
     justify-content: center;
+    margin:0;
+    padding:0; 
 }
 header nav .nav-center {
-  width: 600px;  
+  width: 100%;  
   height:auto;
   display:flex;
   list-style: none;
   justify-content: center;
-  align-items:center;
- 
-}
+  align-items:center;   
+ }
 
-header nav .nav-center a {
-    margin-right: 10px;
-    color: var(--Black);
-}
-.nav-input {
+ nav .nav-center  a {
+    margin-right:86px;
+    color: black;
+ } 
+   
+.nav-input {      
     display:flex;
-    text-align: end;
-    margin-left: 0;
-    width: 220px;
-    height: 32px;
-    margin:0;
-}
-input {
-   margin-right: 4px;
+    justify-content:flex-end;   
+    height: 24px;
+    width: 260px; 
+    margin-left: 1100px; /*No me funcionó el flex-end y lo acomode a ojo conpx*/
+  }
+
+input {  
+    width: 164px;
+    margin-right: 4px;
+    border: 1px solid;
+    font-size:var(--sm);
 }
 button {
-    border-radius: 50px ;
+    display:flex;
+    justify-content:center;
+    border-radius:10px ;
+    border: none;
     background-color: black;
-    color:white;
-    width: 30%;
-}
-main { 
-    display:grid;
-    margin:42px;
+    color:white;    
+    width: 90px;       
+    cursor: pointer;
    
 }
+
+main {
+    height: 60%; 
+    display:grid;
+    margin:42px;   
+}
+
 .cards-container{
     display:grid;
     grid-template-columns: repeat(auto-fill, 264px);
@@ -156,17 +170,26 @@ main {
     
 }
 footer {
-    height:10%;
-    display:grid;
-    margin-bottom: 16px; 
-    font-family:var(--Gulzar);   
+    width: 100%;
+    height:10%;   
+    bottom: 0;
+    display:grid; 
+    align-items: center;
+    font-family:var(--Gulzar);     
+    margin: top 0;;     
+    font-size: 13px; 
+    background-color: black;
 }
-ul {
+footer ul {
     margin:42, 42, 0, 0;
-    display:grid;
-    grid-template-columns: repeat(auto-fill,300px);
-    justify-items: center;
-    text-decoration: none;
+    display:flex;
+    justify-self: center;
+    list-style: none;
+    padding:0; 
+}
+footer ul li a {
+   margin: 88px; 
+   color:white;
 }
 
 
