@@ -68,10 +68,12 @@ header {
     margin-left: 130px;
     margin-bottom: 34px;
 }*/
-    
+ 
+
 
 img {
-    width: 24px;  
+    width: 24px;
+            
 }
 
  header nav {
@@ -138,7 +140,7 @@ main {
 .product-card img{
     width: 264px;
     height: 264px;
-    border-radius:10px ;
+    
     object-fit: cover;
 }
 
