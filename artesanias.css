@@ -139,9 +139,9 @@ main {
 }
 .product-card img{
     width: 264px;
-    height: 264px;
-    
+    height: 264px;    
     object-fit: cover;
+    cursor: pointer;
 }
 
 .product-info {
@@ -152,21 +152,25 @@ main {
     font-weight: 300;
     font-size:  var(--md);
     cursor: pointer;
-          } /* ¿Como centar los textos ?*/
+    text-align: center;
+   
+          }
 
 
 .product-info div p:nth-child(1) {
    
-    margin-top: 8px;
+    margin-top: 4px;
     margin-bottom: 4px;
 }
-.product-info div p:nth-child(2) {   
-    margin-top: 0px;
+.product-info div p:nth-child(2) { 
+    
+    
     margin-bottom: 4px;
     color: var(--Very-light-pink);
 }
 .product-info div p:nth-child(3) {    
-    margin-top: 0px;
+  
+   
     margin-bottom: 4px;
 }    
 
@@ -227,7 +231,7 @@ footer ul li a {
         margin:0;
     }
     .cards-container{       
-        grid-template-columns: repeat(auto-fill);   /*¿Cómo conseguir que la inagen ocupe toda la pantalla?*/
+        grid-template-columns: repeat(auto-fill);   /*¿Cómo conseguir que la imagen ocupe toda la pantalla?*/
         margin:0;   
     }
     .product-card {
