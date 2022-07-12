@@ -59,7 +59,7 @@ header {
     text-align: center;
     width: 100%;
     font-size: 14px; 
-    margin-left: 200px;
+   /* margin-left: 200px;*/
     cursor: pointer;      /*No pude alinear la lista, manejar cada texto, separar Cuenta del resto  ni poner a la misma altura el carro con la Cuenta */     
 }
 
@@ -84,18 +84,23 @@ header nav .nav-center {
     color: black;
  }
  #cuenta {
-    display:flex;
+    display:flex;  
+
+
  }
 
  figure {
     display:inline;
+  
  }
  img {
-    width: 24px;            
+    width: 24px; 
+  
+        
 }
 .contador {
     position: absolute;
-    right: 290px;
+    right: 490px;
 }
 
    
