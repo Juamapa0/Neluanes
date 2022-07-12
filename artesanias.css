@@ -53,14 +53,12 @@ header {
     font-size: 40px;
 }
 .header-list {
-    display: flex;
-    /*justify-content: space-between; */ 
+    display: flex;    
     justify-items: center;
     text-align: center;
     width: 100%;
     font-size: 14px; 
-   /* margin-left: 200px;*/
-    cursor: pointer;      /*No pude alinear la lista, manejar cada texto, separar Cuenta del resto  ni poner a la misma altura el carro con la Cuenta */     
+    cursor: pointer;         
 }
 
 
@@ -69,6 +67,7 @@ header {
     justify-content: center;
     margin:0;
     padding:0; 
+    width:100%;
 }
 header nav .nav-center {
   width: 100%;  
@@ -83,10 +82,11 @@ header nav .nav-center {
     margin-right:86px;
     color: black;
  }
+ .divider {
+    flex-grow:1;
+ }
  #cuenta {
-    display:flex;  
-
-
+    display:flex; 
  }
 
  figure {
@@ -95,12 +95,10 @@ header nav .nav-center {
  }
  img {
     width: 24px; 
-  
-        
+       
 }
 .contador {
-    position: absolute;
-    right: 490px;
+    position: absolute;    
 }
 
    
