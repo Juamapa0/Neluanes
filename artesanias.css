@@ -79,7 +79,7 @@ header nav .nav-center {
  }
 
  nav .nav-center  a {
-    margin-right:86px;
+   /* margin-right:86px;*/
     color: black;
  }
  .divider {
@@ -87,6 +87,7 @@ header nav .nav-center {
  }
  #cuenta {
     display:flex; 
+    margin-right:0;
  }
 
  figure {
