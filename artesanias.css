@@ -13,8 +13,8 @@
     
 }
 body {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 16rem;
+    margin-right: 16rem;
     background-color:#fff ;
 }
 
@@ -97,9 +97,9 @@ header nav .nav-center {
     width: 24px; 
        
 }
-.contador {
-    position: absolute;    
-}
+/*.contador {
+   
+}*/
 
    
 .nav-input {      
@@ -135,7 +135,7 @@ main {
 
 .cards-container{
     display:grid;
-    grid-template-columns: repeat(auto-fill,264px);
+    grid-template-columns: repeat(auto-fill,18rem);
     gap: 48px;
 }
 .product-card {
