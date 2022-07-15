@@ -131,14 +131,14 @@ button {
 }
 
 main {
-    height: 60%; 
-    display:grid;
-    margin:42px;   
+    height: 60%;
+     
 }
 
 .cards-container{
     display:grid;
-    grid-template-columns: repeat(auto-fill,18rem);
+    grid-template-columns:repeat(auto-fill,264px);
+    justify-content: center;
     gap: 48px;
 }
 .product-card {
