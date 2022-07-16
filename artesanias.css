@@ -134,6 +134,9 @@ main {
     height: 60%;
      
 }
+main a{
+    color: black;
+}
 
 .cards-container{
     display:grid;
