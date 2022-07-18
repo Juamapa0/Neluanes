@@ -2,8 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;
-    font-family: 'Gulzar', serif;
-  
+    font-family: 'Gulzar', serif;  
 }
 
 :root {
@@ -13,8 +12,8 @@
     
 }
 body {
-    margin-left: 16rem;
-    margin-right: 16rem;
+    margin-left:260px;
+    margin-right:260px;
     background-color:#fff ;
 }
 
@@ -47,8 +46,7 @@ header {
     justify-items: center;
     margin-right: 0;
     color:var(--Black);
-    text-align: center;    
-    /*flex-wrap: wrap;*/
+    text-align: center; 
     font-weight: bold;
     font-size: 40px;
 }
@@ -58,7 +56,9 @@ header {
     text-align: center;
     width: 100%;
     font-size: 14px; 
-    cursor: pointer;         
+    cursor: pointer; 
+    margin-left: 104px;      
+    margin-right: 104px;  
 }
 
 
@@ -68,6 +68,7 @@ header {
     margin:0;
     padding:0; 
     width:100%;
+    
 }
 header nav .nav-center {
   width: 100%;  
@@ -75,11 +76,11 @@ header nav .nav-center {
   display:flex;
   list-style: none;
   justify-content: center;
-  align-items:center;   
+  align-items:center;    
  }
 
  nav .nav-center  a {
-   margin-right:26px;
+   margin-right:8px;
    margin-left: 8px;
     color: black;
  }
@@ -100,16 +101,13 @@ header nav .nav-center {
     width: 24px; 
        
 }
-/*.contador {
-   
-}*/
-
    
 .nav-input {      
     display: flex;    
     height: 28px;     
     justify-content: end;
     width: 100%;
+    margin-right: 104px;
 }
 input {  
     width: 164px;
