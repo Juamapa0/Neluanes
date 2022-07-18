@@ -2,13 +2,14 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;
-    font-family: 'Gulzar', serif;  
+    font-family: 'Gulzar', serif;
+    font-family:  'Roboto', sans-serif; 
 }
 
 :root {
     --white:white;    
     --Black:#000000;
-    --ligth-grey:rgb(254, 249, 249);
+    --grey:grey;
     
 }
 body {
@@ -44,7 +45,8 @@ header {
     display:flex;    
     justify-content: center;   
     justify-items: center;
-    margin-right: 0;
+    margin-top: 4px;
+    margin-bottom: 8px;
     color:var(--Black);
     text-align: center; 
     font-weight: bold;
@@ -57,19 +59,21 @@ header {
     width: 100%;
     font-size: 14px; 
     cursor: pointer; 
-    margin-left: 104px;      
-    margin-right: 104px;  
+    margin-left: 94px;      
+    margin-right: 94px;  
+    margin-top: 28px;
+    margin-bottom: 8px;
+    
 }
-
 
  header nav {
     display:flex;
     justify-content: center;
     margin:0;
     padding:0; 
-    width:100%;
-    
+    width:100%;    
 }
+
 header nav .nav-center {
   width: 100%;  
   height:auto;
@@ -82,7 +86,7 @@ header nav .nav-center {
  nav .nav-center  a {
    margin-right:8px;
    margin-left: 8px;
-    color: black;
+    color:var(--grey);
  }
  
  .divider {
@@ -107,7 +111,8 @@ header nav .nav-center {
     height: 28px;     
     justify-content: end;
     width: 100%;
-    margin-right: 104px;
+    margin-right: 94px;
+   
 }
 input {  
     width: 164px;
@@ -124,16 +129,15 @@ button {
     background-color: black;
     color:white;    
     width: 90px;       
-    cursor: pointer;/*¿como centrar el texto?*/
-   
+    cursor: pointer;   
 }
 
 main {
-    height: 60%;
-     
+    margin-top: 28px; 
 }
 main a{
     color: black;
+    
 }
 
 .cards-container{
@@ -141,9 +145,11 @@ main a{
     grid-template-columns:repeat(auto-fill,264px);
     justify-content: center;
     gap: 48px;
+   
 }
 .product-card {
     width: 264px;
+   
 }
 .product-card img{
     width: 264px;
@@ -158,43 +164,43 @@ main a{
     justify-content: center;
     flex-direction:column;      
     font-weight: 300;
-    font-size:  var(--md);
+    font-size:  14px;
     cursor: pointer;
     text-align: center;
-   
+    color: var(--grey);   
           }
 
 
-.product-info div p:nth-child(1) {
-   
-    margin-top: 4px;
+.product-info div p:nth-child(1) {   
+    margin-top: 8px;
     margin-bottom: 4px;
 }
-.product-info div p:nth-child(2) { 
-    
-    
+
+.product-info div p:nth-child(2) {   
+  
     margin-bottom: 4px;
     color: var(--Very-light-pink);
 }
-.product-info div p:nth-child(3) {    
-  
-   
+
+.product-info div p:nth-child(3) {   
+     
     margin-bottom: 4px;
 }    
 
 footer {
-    width: 100%;
-    height:10%;   
-    bottom: 0;
+    width: auto;
+    height:46px;   
     display:grid; 
     align-items: center;
-    font-family:var(--Gulzar);     
-    margin: top 0;;     
+    font-family:var(--Gulzar); 
+    margin-left: 94px;  
+    margin-right: 94px;
+      
     font-size: 13px; 
     background-color:var(--Black);
 }
 footer ul {
-    margin:42 42 0 0;
+    
     display:flex;
     justify-self: center;
     list-style: none;
@@ -204,6 +210,7 @@ footer ul li a {
    margin: 88px; 
    color:white;
 }
+
 @media (max-width:640px){
 
     body {
