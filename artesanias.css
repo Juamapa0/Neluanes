@@ -195,7 +195,7 @@ main a{
 }    
 
 footer {
-    width: 1024px;
+    width: 100%;
     height:46px;   
     display:grid; 
     align-items: center;
@@ -206,11 +206,12 @@ footer {
     background-color:var(--Black);
 }
 footer ul {
-    
+    width: 1024px;
     display:flex;
     justify-self: center;
     list-style: none;
     padding:0; 
+    margin:auto;
 }
 footer ul li a {
    margin: 88px; 
