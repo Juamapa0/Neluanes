@@ -270,6 +270,7 @@ main a{
     color: blue;   
     font-size: 14px;  
 }
+
 .agregar { 
     display: inline;
     height: 40px;
@@ -286,6 +287,47 @@ main a{
     margin-left: 20px;
     border:1px solid;
     border-radius: 0;
+}
+.formas {
+    display:flex;
+    margin-top: 20px;
+    margin-right: 0;
+ 
+    justify-content: center;
+    flex-direction: row;
+   
+    
+}
+.envio {
+   width: 50%;
+   height: 40px; 
+   text-align: center; 
+  }
+.camion img {
+    width: 20px;
+    align-self: center;
+}
+.pago {
+    width: 50%;
+    height: 40px; 
+    text-align: center; 
+    
+}
+.tarjeta img {
+ width: 30px;
+ align-self: center;
+ 
+}
+.descripcion {
+    margin-bottom:10px;
+}
+.descripcion h2 {
+    margin-bottom: 8px;
+}
+h4{
+    display: flex;
+    width: 300px;
+    line-height: 24px;
 }
 
 footer {
@@ -311,6 +353,8 @@ footer ul li a {
    margin: 88px; 
    color:white;
 }
+
+
 
 @media screen and (max-width:640px){
 
