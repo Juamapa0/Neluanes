@@ -252,9 +252,9 @@ main a{
     margin-bottom: 2px; 
 }
 .product-info-right li:nth-child(3){
-    margin-top: 48px;    
+       
     margin-bottom: 12px;
-    width: 20px;
+    width: 100%;
     
 }
 .input-right {
@@ -318,9 +318,7 @@ main a{
  align-self: center;
  
 }
-.descripcion {
-    margin-bottom:10px;
-}
+
 .descripcion h2 {
     margin-bottom: 8px;
 }
@@ -352,6 +350,10 @@ footer ul {
 footer ul li a {
    margin: 88px; 
    color:white;
+}
+.footer-detalle {
+    position: absolute;
+    bottom: 0;
 }
 
 
