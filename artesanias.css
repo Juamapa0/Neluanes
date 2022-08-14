@@ -32,6 +32,19 @@ header {
     margin-bottom: 16px;
     flex-wrap: wrap;       
 }
+.contenedor {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 1024px;
+    margin:auto;
+    height: 30%;   
+    display : flex;      
+    /*margin-top: 16px;*/
+    margin-bottom: 16px;
+    flex-wrap: wrap;   
+
+}
 
 .header-title {
     display: flex;
@@ -134,7 +147,8 @@ button {
 main {     
     width:1024px;
     margin:auto;
-    margin-top: 28px;
+    margin-top: 268px;
+    margin-bottom: 60px;
 }
 
 main a{
@@ -332,6 +346,8 @@ h4{
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
     width: 100%;
     height:46px;   
     display:grid; 
