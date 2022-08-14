@@ -213,6 +213,8 @@ main a{
     gap: auto;
     height:800px ;*/
     display:flex;
+    margin-bottom:20px;
+    margin-top: 44px;
 }
 
 .product-left {
@@ -371,7 +373,7 @@ footer ul li a {
    color:white;
 }
 .footer-detalle {
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
