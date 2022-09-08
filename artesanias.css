@@ -39,8 +39,7 @@ header {
     width: 1024px;
     margin:auto;
     height: 30%;   
-    display : flex;      
-    /*margin-top: 16px;*/
+    display : flex;     
     margin-bottom: 16px;
     flex-wrap: wrap;   
 
@@ -207,11 +206,7 @@ main a{
     color:var(--grey)
 } 
 .detalles {
-    /*display: grid;
-    grid-template-columns: repeat(auto-fit,500px);
-    justify-content: space-between;
-    gap: auto;
-    height:800px ;*/
+    
     display:flex;
     margin-bottom:20px;
     margin-top: 44px;
@@ -224,10 +219,7 @@ main a{
 
 }
 .cards-container-detalle{   
-    width: 500px;
-    /*border:1px solid #999;
-    padding:8px;
-    border-radius: 4px;*/
+    width: 500px;  
 }
  .detalles .product-detalle img{
     width: 100% ;
@@ -379,47 +371,65 @@ footer ul li a {
 
 
 
-@media screen and (max-width:640px){
-
-    body {
-        display: grid;
-        margin:0;
-        width:100%;
-    }
+@media screen and (max-width:756px){
+   body {
+    width: 100%;
+    margin: 0;
+   }
     header {
-        width:100%;
-    }
+        width:100%;        
+          }
+
+    .contenedor {
+     /*display: flex;*/
+     /*flex-direction: column;*/
+     justify-content: center;
+     width:100%;
+     text-align: center;  
+         }
     
     header .title{
-        margin:auto;
+       display:flex;
+       justify-content: center;
+           
     }
-    .title {
+    .title {        
         font-size:24px;
-    }
+           }
     .header-list {
-        display: flex;
-        justify-content:space-between;
-        flex-direction:column;
+        width: 100%; 
+        display:flex; 
+        /*flex-direction: column;  */ 
+        justify-content: center;   
+        justify-items: center;               
         margin:0;
+     
           }
     header nav .nav-center {
-            display: flex;
-            justify-content:center ;
-            flex-direction:column;
-            margin:0; 
-            
+        display:flex; 
+        flex-direction: column;   
+        justify-content: center;   
+        justify-items: center;
+        min-width: 320px;
+        margin: 0;        
         } 
     .nav-input {      
-        display:flex;
-        justify-content:flex-end;
-        margin: 0;
+        display:flex;    
+        justify-content: center;   
+        justify-items: center; 
        
      }
+     .contador {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+            }
      nav .nav-center  a {
-        margin:0;
+        margin-bottom: 18px;
         padding: 0;
-     }
-    main {
+            }
+    
+      main {
         display: flex;
         width:100%;
         justify-content: space-between;       
