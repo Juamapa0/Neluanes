@@ -10,13 +10,13 @@ productList.push({
 productList.push({
     name:'Pulsera',
     detalle:'Diseño salteño',
-    price: 'Desde:$1000',
+    price: 'Desde:$800',
     image:'https://lh3.googleusercontent.com/pw/AM-JKLVSWPbw1xY4NiJZO3Ccj4MYNxg_o0voUWIOqU9OW6GzwNwxBTa1xbY1YCjWvnpMuddrtp5aEYFrRcMXRQCpa5ce7wb6yvc7eS-qMwk2PmP3Yht2JLWmjiJzsFo-j7SDYY3ErxouDKJPb4i8P3igXHaEFA=w720-h341-no?authuser=0', 
 });
 productList.push({
     name:'Aro',
     detalle:'Diseño salteño',
-    precio: 'Desde:$1000',
+    precio: 'Desde:$100',
     image:'https://lh3.googleusercontent.com/pw/AM-JKLUmVq6IPaV0EM0_YtF6Pbu322YPQ29SHfUvsVckbWECa36xYxIMXHrOwkQ0f-l6n5Di9Xm2ixlmUxAnYLX62RFFa4Yq7LmziBD3EOgX8VaZOacIeJ_a1hAmPuTiQFMRV2BEzdny3pH4k5-mUPkbdzNPxA=w720-h341-no?authuser=0', 
 });
 
