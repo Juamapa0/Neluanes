@@ -14,7 +14,7 @@
     
 }
 body {  
-     background-color:#fff ;
+    background-color:#fff ;
 }
 
 
@@ -54,7 +54,7 @@ header {
     margin-top: 28px;   
 }
 
- .title {
+.title {
     display:flex;    
     justify-content: center;   
     justify-items: center;
@@ -77,7 +77,7 @@ header {
     margin-bottom: 18px;    
     }
 
- header nav {
+header nav {
     display:flex;
     justify-content: center;    
     padding:0; 
@@ -85,43 +85,39 @@ header {
 }
 
 header nav .nav-center {
-  width: 100%;  
-  height:auto;
-  display:flex;
-  list-style: none;
-  justify-content: center;
-  align-items:center; 
-  gap: 12px;
- }
-
- nav .nav-center  a {
-  
-    color: var(--grey);
- }
- 
- .divider {
-    flex-grow:1;
- }
- #cuenta {
+    width: 100%;  
+    height:auto;
     display:flex;
-   
- }
-
- figure {
-    display:inline;
-  
- }
- img {
-    width: 24px; 
-       
+    list-style: none;
+    justify-content: center;
+    align-items:center; 
+    gap: 12px;
 }
-   
+
+nav .nav-center  a {  
+    color: var(--grey);
+}
+
+.divider {
+    flex-grow:1;
+}
+#cuenta {
+    display:flex;   
+}
+
+figure {
+    display:inline;  
+}
+img {
+    width: 24px;        
+}
+
 .nav-input {      
     display: flex;    
     height: 28px;     
     justify-content: end;
     width: 100%;
-   }
+}
 
 input {  
     width: 164px;
@@ -139,8 +135,7 @@ button {
     background-color: black;
     color:white;    
     width: 90px;       
-    cursor: pointer; 
-   
+    cursor: pointer;   
 }
 
 main {     
@@ -167,7 +162,6 @@ main a{
     padding:10px;
     border-radius: 4px;
 }
-   
 
 .product-card img{
     width: 100%;
@@ -184,7 +178,7 @@ main a{
     font-weight: 300;   
     cursor: pointer;
     text-align: center;    
-          }
+}
 
 
 .product-info div p:nth-child(1) {   
@@ -221,7 +215,8 @@ main a{
 .cards-container-detalle{   
     width: 500px;  
 }
- .detalles .product-detalle img{
+
+.detalles .product-detalle img{
     width: 100% ;
     height: auto;    
     object-fit:cover;
@@ -229,14 +224,13 @@ main a{
 }
 
 .info-right {
-  width: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  padding:8px; 
-  justify-content: left; 
- } 
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding:8px; 
+    justify-content: left; 
+} 
 
- 
 .product-info-right {
     display: flex;   
     align-items: left;       
@@ -256,11 +250,9 @@ main a{
     margin-top: 18px;
     margin-bottom: 2px; 
 }
-.product-info-right li:nth-child(3){
-       
+.product-info-right li:nth-child(3){       
     margin-bottom: 12px;
-    width: 100%;
-    
+    width: 100%;    
 }
 .input-right {
     width:52px;
@@ -273,8 +265,7 @@ main a{
     display: flex; 
     flex-direction: row;       
     color: blue;   
-    font-size: 14px; 
-   
+    font-size: 14px;   
 }
 
 .agregar { 
@@ -305,12 +296,12 @@ main a{
     
 }
 .envio {
-   width: 50%;
-   height: 40px;
-   display:flex;   
-   justify-items: center;
-   align-items: center;
-  }
+    width: 50%;
+    height: 40px;
+    display:flex;   
+    justify-items: center;
+    align-items: center;
+}
 .camion img {
     width: 20px;
     align-self: center;
@@ -325,9 +316,8 @@ main a{
     align-items: center;      
 }
 .tarjeta img {
- width: 30px;
- align-self: center;
- 
+    width: 30px;
+    align-self: center; 
 }
 
 .descripcion h2 {
@@ -350,7 +340,7 @@ footer {
     margin:auto;
     margin-top: 40px;  
     font-size: 13px; 
-   background-color: #000000;
+    background-color: #000000;
 }
 footer ul {
     width: 1024px;
@@ -361,8 +351,8 @@ footer ul {
     margin:auto;
 }
 footer ul li a {
-   margin: 88px; 
-   color:white;
+    margin: 88px; 
+    color:white;
 }
 .footer-detalle {
     position: fixed;
@@ -372,39 +362,37 @@ footer ul li a {
 
 
 @media screen and (max-width:756px){
-   body {
+    body {
     width: 100%;
     margin: 0;
-   }
+}
     header {
         width:100%;        
-          }
+        }
 
     .contenedor {
-     /*display: flex;*/
-     /*flex-direction: column;*/
-     justify-content: center;
-     width:100%;
-     text-align: center;  
-         }
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    justify-content: center;
+    width:100%;
+    text-align: center;  
+        }
     
     header .title{
-       display:flex;
-       justify-content: center;
-           
+    display:flex;
+    justify-content: center;           
     }
     .title {        
         font-size:24px;
-           }
+        }
     .header-list {
         width: 100%; 
         display:flex; 
         /*flex-direction: column;  */ 
         justify-content: center;   
         justify-items: center;               
-        margin:0;
-     
-          }
+        margin:0;     
+        }
     header nav .nav-center {
         display:flex; 
         flex-direction: column;   
@@ -416,20 +404,19 @@ footer ul li a {
     .nav-input {      
         display:flex;    
         justify-content: center;   
-        justify-items: center; 
-       
-     }
-     .contador {
+        justify-items: center;        
+    }
+    .contador {
         display: flex;
         flex-direction: row;
         margin: 0;
             }
-     nav .nav-center  a {
+    nav .nav-center  a {
         margin-bottom: 18px;
         padding: 0;
             }
     
-      main {
+    main {
         display: flex;
         width:100%;
         justify-content: space-between;       
