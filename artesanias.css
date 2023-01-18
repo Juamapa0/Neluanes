@@ -203,7 +203,7 @@ main a{
     
     display:flex;
     margin-bottom:20px;
-    margin-top: 44px;
+    margin-top: 10px;
 }
 
 .product-left {
@@ -447,8 +447,5 @@ footer ul li a {
     footer ul li a{
         margin:44px;
     }
-}
+} 
 
-
-    
-    
