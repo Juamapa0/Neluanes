@@ -45,7 +45,7 @@ for (product of productList){
   // crea un elemento <a>
   const productA = document.createElement('a');
   // agrega href  y ./ a la etiqueta <a>
-  productA.setAttribute('href', './detalleartesanias.html');
+  productA.setAttribute('href', './index.html');
   // crea  un elemento img
   const productImg = document.createElement('img');
   // agrega el src y el product.image ¿?
